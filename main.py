@@ -53,8 +53,6 @@ while running:
         except ValueError:
             print("Invalid input. Please enter digits separated by spaces or commas.")
 
-
-
     again = input('Would you like to play again? [y/n]:')
     # if again == "n" or again == "no":
     #     running = False
@@ -62,7 +60,7 @@ while running:
         running = True
     else:
         running = False
-
+        
 print('Thank you for playing!')
 
 
